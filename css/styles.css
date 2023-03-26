@@ -381,8 +381,8 @@ background-color: var(--accent-color);
 /* ----------Section Footer---------- */
 
 .footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 
   background-color: var(--title-text-color-and-background);
 }

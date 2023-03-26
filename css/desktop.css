@@ -166,4 +166,10 @@
     gap: 24px;
 }
 
+/* ---------- FOOTER ---------- */
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 }
