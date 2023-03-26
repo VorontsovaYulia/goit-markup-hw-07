@@ -2,4 +2,10 @@
     .container {
         max-width: 428px;
     }
+
+    .hero-title {
+        width: 320px;
+        font-weight: 700;
+        font-size: 36px;
+    }
 }
