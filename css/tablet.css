@@ -3,17 +3,21 @@
         max-width: 768px;
     }
     
-    .header-menu {
-        display: flex;
-        align-items: center;
+/* ---------- HEADER ---------- */
+
+.header-menu {
+    display: flex;
+    align-items: center;
             
-    }
-    .header-list {
-        display: block;
-    }
-    .header-menu-item:not(:last-child) {
-        margin-right: 40px;
-    }
+}
+.header-list {
+    display: block;
+}
+
+.header-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
 .header-menu-link {
     position: relative;
 
@@ -52,6 +56,10 @@
     padding-top: 24px;
     padding-bottom: 24px;
 
+    font-size: 12px;
+    line-height: 1.17;
+
+
     font-style: normal;
     color: var(--title-text-color-and-background);
 
@@ -62,6 +70,8 @@
 .contact:focus {
     color: var(--accent-color);
 }
+
+/* ---------- HERO ---------- */
 
 .hero-container {
     padding: 112px 136px;
@@ -76,15 +86,75 @@
     line-height: 1.07;
 }
 
- .hero {
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tablet.jpg);
- }
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tablet.jpg);
+}
 
- @media (min-device-pixel-ratio: 2),
- (min-resolution: 192dpi),
- (min-resolution: 2dppx) {
-     .hero {
-         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tablet@2x.jpg);
-     }
- }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tablet@2x.jpg);
+    }
+}
+
+/* ---------- ADVANTAGES ---------- */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.advantages-title {
+    text-align: left;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+
+.advantages-list-scroll {
+    flex-basis: calc((100% - 24px) / 2);
+}
+
+.advantages-list-scroll:not(:last-child) {
+    margin-bottom: 0;
+}
+
+/* ---------- TEAM ---------- */
+
+.team {
+    padding-top: 96px;
+    padding-bottom: 104px;
+}
+
+.employees {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+}
+
+.employees-cards {
+    flex-basis: calc((100% - 24px) / 2);
+    max-width: 264px;
+}
+
+/* ---------- CUSTOMERS ---------- */
+
+.customers-list {
+    gap: 72px 24px;
+}
+
+.customers-list-item {
+    max-width: 168px;
+
+    flex-basis: calc((100% - 32px) / 3);
+}
+
 }
