@@ -172,4 +172,16 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-right {
+    margin-right: 80px;
+}
+.footer-left {
+    margin-right: 120px;
+}
+
 }

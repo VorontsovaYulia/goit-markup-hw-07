@@ -159,4 +159,42 @@
 
 /* ---------- FOOTER ---------- */
 
+.footer-form-input {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    margin-bottom: 0;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+}
+
+.footer-elements {
+    flex-basis: calc((100% - 24px) / 2);
+}
+
+.footer-form {
+    align-items: baseline;
+}
+
+.title-right {
+    text-align: left;
+}
+
+.first-logo {
+    text-align: left;
+}
+
+.footer-text {
+    width: 100%;
+}
+
 }
