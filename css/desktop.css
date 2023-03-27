@@ -173,10 +173,11 @@
     padding-bottom: 100px;
 }
 .footer-box {
-    flex-direction: row;
-    align-items: baseline;
+    
+    flex-wrap: nowrap;
     gap: 0;
-        flex-wrap: nowrap;
+
+    width: unset;
 }
 
 .footer-right {
@@ -186,4 +187,10 @@
     margin-right: 120px;
 }
 
+/* ---------- PORTFOLIO ---------- */
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 }

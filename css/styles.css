@@ -536,16 +536,18 @@ color: rgba(255, 255, 255, 0.6);
 /* ----------Section Portfolio---------- */
 
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .btn-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
+  gap: 16px 24px;
+  justify-content: left;
   margin-bottom: 72px;
+
+  width: 270px;
 }
 
 .portfolio-list {
@@ -579,7 +581,7 @@ color: rgba(255, 255, 255, 0.6);
 
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
-  padding: 12px 24px;
+  padding: 8px 16px;
 
   background-color: var(--color-cloud);
   color: var(--secondary-text-color);
