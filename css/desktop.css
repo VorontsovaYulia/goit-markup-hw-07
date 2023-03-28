@@ -173,7 +173,6 @@
     padding-bottom: 100px;
 }
 .footer-box {
-    
     flex-wrap: nowrap;
     gap: 0;
 
@@ -193,4 +192,14 @@
     padding-top: 96px;
     padding-bottom: 120px;
 }
+
+.portfolio-list {
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-list-scroll {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
 }

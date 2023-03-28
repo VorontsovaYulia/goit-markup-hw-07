@@ -170,17 +170,12 @@
 }
 
 .footer-box {
-    display: flex;
     flex-direction: row;
     align-items: baseline;
     column-gap: 24px;
     flex-wrap: wrap;
 
     width: 565px;
-}
-
-.footer-elements {
-    /* flex-basis: calc((100% - 24px) / 2); */
 }
 
 .footer-form {
@@ -218,4 +213,13 @@
     width: 100%;
 }
 
+.portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 72px 24px;
+}
+
+.portfolio-list-scroll {
+    flex-basis: calc((100% - 24px) / 2);
+}
 }
