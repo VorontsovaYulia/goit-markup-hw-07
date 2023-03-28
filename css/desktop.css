@@ -4,11 +4,6 @@
     }
     
 /* ---------- HEADER ---------- */
-
-/* .header-menu {
-    display: flex;
-    align-items: center;
-} */
     
 .header-list {
     display: flex;
@@ -201,5 +196,4 @@
 .portfolio-list-scroll {
     flex-basis: calc((100% - 48px) / 3);
 }
-
 }
