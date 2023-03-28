@@ -7,11 +7,19 @@
 
 .header-menu {
     display: flex;
-    align-items: center;
-            
+    align-items: center;          
 }
+
+.logo {
+    margin-right: 76px;
+}
+
 .header-list {
     display: block;
+}
+
+.header-nav {
+    margin-right: auto;
 }
 
 .header-menu-item:not(:last-child) {

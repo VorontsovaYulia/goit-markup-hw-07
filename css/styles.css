@@ -77,17 +77,16 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
 }
 
 .header-menu {
   display: none;
-  
 }
 
 .header-list {
@@ -95,7 +94,6 @@ body {
 }
 
 .logo {
-  margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -111,9 +109,6 @@ body {
 }
 
 .second-logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
   color: var(--title-text-color-and-background);
 }
 
