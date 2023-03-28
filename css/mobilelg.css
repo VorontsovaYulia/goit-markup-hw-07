@@ -16,4 +16,18 @@
 .footer-input {
     width: 398px;
 }
+
+/* ----------Modal Window---------- */
+
+.modal {
+    width: 408px;
+    height: 576px;
+}
+
+/* ----------Modal Form---------- */
+
+.modal-form-check-desc {
+    font-size: 12px;
+}
+ 
 }
