@@ -671,6 +671,8 @@ transform: translate(0, 0);
     width: 310px;
     height: auto;
 
+    border-radius: 4px;
+
     background-color: var(--color-dairy);
 
     transition: transform var(--trans-dur-and-func);
@@ -921,8 +923,12 @@ border-color: var(--accent-color);
   padding-bottom: 40px;
 }
 
-.mobile-menu-item {
+.mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
+}
+
+.contacts {
+  margin-bottom: 5px;
 }
 
 .contacts-and-social {
