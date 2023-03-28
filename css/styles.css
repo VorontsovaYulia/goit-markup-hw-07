@@ -682,7 +682,7 @@ transform: translate(0, 0);
     transform: translate(-50%, -50%) scale(0);
   }
 
-  .modal-close-btn {
+  .close-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -703,13 +703,13 @@ transform: translate(0, 0);
     transition: background-color var(--trans-dur-and-func), color var(--trans-dur-and-func), border-color var(--trans-dur-and-func);
   }
 
-  .modal-close-btn:is(:hover, :focus) {
+  .close-btn:is(:hover, :focus) {
     background-color: var(--accent-color);
     color: var(--white-color);
     border-color: var(--accent-color);
   }
 
-  .modal-close-btn-icon {
+  .close-btn-icon {
     fill: currentColor;
   }
 
@@ -763,7 +763,7 @@ color: var(--color-light-slate);
   transform: translateY(-50%);
 
   transition: fill var(--trans-dur-and-func);
-  }
+}
 
 .modal-form-input:focus {
   outline: none;
@@ -875,4 +875,101 @@ border-color: var(--accent-color);
 .modal-form-policy {
   color: var(--secondary-text-color);
 }
+}
+
+/* ---------- MOBILE MENU ---------- */
+
+@media screen and (max-width: 767px) {
+
+.menu-toggle {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
+.mobile-container {
+max-width: 428px;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 1000;
+
+  background-color: var(--white-color);
+
+  transform: translateX(100%);
+  transition: transform var(--trans-dur-and-func);
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding: 80px 35px 40px 40px;
+}
+
+.mobile-menu-item {
+margin-bottom: 40px;
+}
+
+.close-btn {
+  
+}
+
+.contacts-and-social {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  margin-top: auto;
+}
+
+.mobile-tel {
+  margin-bottom: 40px;
+}
+
+.mobile-menu-catalog {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.mobile-menu-link {
+  color: var(--title-text-color-and-background);
+}
+
+.mobile-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-tel {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.11;
+
+  color: var(--secondary-text-color)
+}
+
+.contact-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--primary-text-color);
+}
+
 }

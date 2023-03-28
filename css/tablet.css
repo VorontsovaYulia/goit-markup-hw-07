@@ -222,4 +222,16 @@
 .portfolio-list-scroll {
     flex-basis: calc((100% - 24px) / 2);
 }
+
+/* ---------- MOBILE MENU ---------- */
+
+.menu-toggle {
+    display: none;
 }
+
+.menu-container {
+    display: none;
+}
+
+}
+
